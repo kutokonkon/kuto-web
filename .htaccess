@@ -1,5 +1,7 @@
 RewriteEngine On
-RewriteBase /www/web/
+
+#Index
+DirectoryIndex index.php
 
 # Ignora archivos y directorios existentes
 RewriteCond %{REQUEST_FILENAME} !-f
