@@ -3,6 +3,6 @@
 composer.lock
 package-lock.json
 #Folders
-/data/
+/data/*
 /node_modules/
 /vendor/
