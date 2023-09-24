@@ -1,0 +1,116 @@
+/*
+KUTO PALETTE
+#6868ac Purple main
+#2f2f5e Purple dark
+#69ab55 Green main
+#3e5e34 Green dark
+
+THEME PALETTE
+#1e30f3 Blue
+*/
+.bg-gradient-minecraft {
+    background: #4CAF50;
+    /* verde para la hierba */
+    background: linear-gradient(135deg, #4CAF50 0%, #8B4513 100%);
+    /* verde a marrón */
+}
+
+.bg-minecraft-complex {
+    background-image: url('../assets/cubes03.png'), linear-gradient(135deg, #4CAF50 0%, #8B4513 100%);
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.profile-img2 {
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-48%) scale(1);
+    transform-origin: bottom center;
+    height: 40vw;
+    max-height: 45rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.profile-img2:hover {
+    transform: translateX(-50%) scale(1.02);
+    transform-origin: bottom center;
+}
+
+
+.profile .dots-1 svg {
+    fill: #EED77D;
+}
+
+.profile .dots-2 svg {
+    fill: #e21e80;
+}
+
+.profile .dots-3 svg {
+    fill: #EED77D;
+}
+
+.profile .dots-4 svg {
+    fill: #6667ab;
+}
+
+
+.bg-gradient-primary-to-secondary {
+    background: #6667ab;
+    background: linear-gradient(135deg, #6667ab 0%, #e21e80 100%);
+}
+
+.text-gradient {
+    background: -webkit-linear-gradient(315deg, #6667ab 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-primary {
+
+    background-color: #6868ac !important;
+}
+
+.btn-myprimary {
+    /**/
+}
+
+.btn-myprimary:hover {
+    color: #1e30f3;
+    background-color: #fff;
+    /*border-color: var(--bs-btn-hover-border-color);*/
+}
+
+/*
+.mainLogo .cls-U {
+    fill: #6868ac;
+    stroke-width: 0px;
+}
+.mainLogo .cls-T {
+    fill: #6868ac;
+    stroke-width: 0px;
+}
+.mainLogo .cls-O {
+    fill: #6868ac;
+    stroke-width: 0px;
+}
+.mainLogo .cls-K {
+    fill: #6868ac;
+    stroke-width: 0px;
+}
+*/
+
+.mainLogoNav {
+    width: 100px;
+}
+svg#mainLogo{
+    fill: #6868ac !important;
+}
+.mainLogoNav:hover svg#mainLogo {
+    fill: #3e5e34 !important;
+}
+
+
+.text-purple{
+ color: #6868ac;   
+}
