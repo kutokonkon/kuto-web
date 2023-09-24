@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /web/
+RewriteBase /www/web/
 
 # Ignora archivos y directorios existentes
 RewriteCond %{REQUEST_FILENAME} !-f

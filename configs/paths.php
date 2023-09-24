@@ -1,3 +1,3 @@
 <?php
-$route = "http://192.168.5.8/web/";
+$route = "https://localhost:8883/www/web/";
 $root = __DIR__;
