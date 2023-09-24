@@ -1,0 +1,44 @@
+{
+  "name": "kuto-web",
+  "version": "1.0.0",
+  "description": "kuto-web",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^5.0",
+    "@fortawesome/fontawesome-free": "^6.4",
+    "@popperjs/core": "^2.11.7",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.3",
+    "bootswatch": "^5.2.3",
+    "chart.js": "^4.2.1",
+    "datatables.net": "^1.13.4",
+    "datatables.net-bs5": "^1.13.4",
+    "fullcalendar": "^6.1.5",
+    "jquery": "^3.6.4",
+    "jquery-ui": "^1.13.2",
+    "leaflet": "^1.9.3",
+    "select2": "^4.1.0-rc.0",
+    "select2-bootstrap-5-theme": "^1.3.0",
+    "startbootstrap-sb-admin-2": "^4.1.4",
+    "sweetalert2": "^11.4.8",
+    "tinymce": "^5.10.7",
+    "wow.js": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kutokonkon/kuto-web.git"
+  },
+  "author": "DUOTICS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kutokonkon/kuto-web/issues"
+  },
+  "homepage": "https://github.com/kutokonkon/kuto-web#readme"
+}

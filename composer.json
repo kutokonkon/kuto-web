@@ -1,0 +1,21 @@
+{
+  "name": "kutokonkon/kuto-web",
+  "description": "Website Kuto",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/helpers/helper.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "kutokonkon"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.5"
+  }
+}

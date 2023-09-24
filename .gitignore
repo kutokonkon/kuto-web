@@ -1,2 +1,8 @@
+#File System
+.env
+composer.lock
+package-lock.json
+#Folders
 /data/
 /node_modules/
+/vendor/
